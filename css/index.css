@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('./normalize.css');
+@font-face {
+  font-family: "Droid Sans";
+  src: url('../webfonts/DroidSans.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.article{
+    margin-bottom: 40px;
+}
+.title{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button{
+  outline: transparent;
+}
+
+.header__wrapper{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 20px;
+}
+.header__inner{
+    background-color: #145349;
+    color: white;
+    padding: 40px;
+}
+.container {
+  max-width: 972px;
+    margin: auto;
+}
+.header__details {
+   
+}
+.header__profile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    
+}
+.header__img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.header__subtitle {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact__subtitle {
+    margin-bottom: 5px;
+}
+.contact__text {
+    font-size: 15px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.main {
+    padding: 40px 30px;
+}
+
+.main__desc {
+    font-size: 20px;
+}
+
+.experience__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.experience__subtitle {
+    font-size: 20px;
+
+}
+.experience__caption{
+    font-weight: 100;
+}
+
+.experience__list {
+    padding: 0 10px;
+}
+.experience__point {
+    margin-bottom: 5px;
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__subtitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.lang__list {
+    padding: 0 10px;
+}
+.lang__point {
+    margin-bottom: 5px;
+}
